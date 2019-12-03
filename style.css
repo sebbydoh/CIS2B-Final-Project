@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Freckle+Face|Roboto:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Roboto:400,400i,700,700i|VT323&display=swap');
 
 /* Google Fonts
-font-family: 'Freckle Face', cursive;   --Headings
-font-family: 'Roboto', sans-serif;   --Paragraph
+font-family: 'Just Me Again Down Here', cursive;   ---Sticky Notes
+font-family: 'Roboto', sans-serif;   ---Paragraph 
+font-family: 'VT323', monospace;   ---Headings
 */
 
 /* Defaults/Elements */
@@ -12,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Freckle Face', cursive;
+    font-family: 'VT323', monospace;
 }
 
 p {

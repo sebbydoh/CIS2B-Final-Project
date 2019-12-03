@@ -25,3 +25,12 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/* Classes */
+
+.page-wrapper {
+    display: grid;
+    width: 35em;
+    text-align: center;
+    margin: 0 auto;
+}

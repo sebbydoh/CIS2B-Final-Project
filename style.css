@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Freckle+Face|Roboto:400,400i,700,700i&display=swap');
+
+/* Google Fonts
+font-family: 'Freckle Face', cursive;   --Headings
+font-family: 'Roboto', sans-serif;   --Paragraph
+*/
+
+/* Defaults/Elements */
+
+body {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Freckle Face', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Freckle+Face|Roboto:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Nothing+You+Could+Do&display=swap');
 
 /* Google Fonts
-font-family: 'Freckle Face', cursive;   --Headings
-font-family: 'Roboto', sans-serif;   --Paragraph
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Montserrat', sans-serif;
 */
 
 /* Defaults/Elements */
@@ -12,11 +12,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Freckle Face', cursive;
+    font-family: 'Nothing You Could Do', cursive;
+    letter-spacing: .3rem;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    text-align: justify;
 }
 
 /* Links */

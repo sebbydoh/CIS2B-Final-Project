@@ -10,14 +10,18 @@ font-family: 'VT323', monospace;   ---Headings
 
 body {
     font-size: 16px;
+    background-color: black;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'VT323', monospace;
+    color: red;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: greenyellow;
 }
 
 /* Links */

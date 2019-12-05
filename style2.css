@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Tomorrow:400,400i,700,700i&display=swap');
+
+/* Google Fonts
+font-family: 'Tomorrow', sans-serif;   ---Headings
+font-family: 'Lato', sans-serif;   --- Paragraphs
+*/
+
+/* Defaults/Elements */
+
+body {
+    font-size: 16px;
+    background-color: black;
+    background-image: url(images/endless_road.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tomorrow', sans-serif;
+    color: red;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+/* Classes */
+
+.page-wrapper {
+    display: grid;
+    width: 450px;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border: white ridge 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.page-wrapper::-webkit-scrollbar { 
+    width: 0 !important 
+}

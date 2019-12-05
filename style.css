@@ -40,6 +40,8 @@ a {
 .page-wrapper {
     display: grid;
     width: 450px;
+    border: red 2px solid;
+    height: 500px;;
     text-align: center;
     margin: 0 auto;
     overflow-y: scroll;

@@ -56,3 +56,16 @@ a {
     width: 0 !important 
 }
 
+.select, .design-selection, .design-archives, .archives .design-selection a {
+    font-family: 'Just Me Again Down Here', cursive; 
+    color: black;
+} 
+
+
+.design-selection {
+    position: fixed;
+    top: 25px;
+    left: 140px;
+    font-size: 1.3em !important;
+    transform: rotate(-5deg);
+}

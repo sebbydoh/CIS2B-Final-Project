@@ -15,6 +15,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding-top: 70px;
+    font-family: 'Lato', sans-serif; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,12 +30,16 @@ h1 {
 p {
     font-family: 'Lato', sans-serif;
     color: white;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5em;
 }
 
 footer a {
     margin: 0 20px;
+}
+
+nav ul {
+    padding-inline-start: 0;
 }
 
 /* Links */
@@ -43,6 +48,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: #FF6161;
+    
 }
 
 /* Classes */
@@ -75,3 +81,12 @@ a {
     font-style: italic;
 }
 
+.zen-resources ul {
+    padding-inline-start: 0;
+}
+
+.design-archives {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

@@ -47,6 +47,11 @@ nav ul {
     padding-inline-start: 0;
 }
 
+nav ul li {
+margin: 6px;
+}
+
+
 /* Links */
 
 a {
@@ -91,7 +96,7 @@ a:hover, a:focus {
     height: 280px;
     background-image: url(images/highwaysign.png);
     background-size: 100%;
-    padding-top: 20px;
+    padding-top: 2px;
     background-repeat: no-repeat;
 }
 
@@ -115,7 +120,10 @@ a:hover, a:focus {
     background-size: 100%;
     padding-top: 70px;
     background-repeat: no-repeat;
+}
 
+.design-archives li {
+    margin: 6px;
 }
 
 .zen-resources {
@@ -129,4 +137,8 @@ a:hover, a:focus {
     background-size: 100%;
     padding-top: 50px;
     background-repeat: no-repeat;
+}
+
+.zen-resources li {
+    margin: 6px;
 }

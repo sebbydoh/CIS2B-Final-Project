@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Tomorrow:400,400i,700,700i&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Google Fonts
 font-family: 'Tomorrow', sans-serif;   ---Headings
 font-family: 'Lato', sans-serif;   --- Paragraphs
@@ -21,6 +26,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Tomorrow', sans-serif;
     color: #FF6161;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -32,6 +38,7 @@ p {
     color: white;
     text-align: left;
     line-height: 1.45em;
+    margin-bottom: 30px;
 }
 
 abbr {
@@ -51,7 +58,7 @@ nav ul {
 }
 
 nav ul li {
-margin: 6px;
+margin: 4px;
 }
 
 
@@ -93,14 +100,14 @@ a:hover, a:focus {
 
 .design-selection {
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 50px;
     width: 400px;
     height: 280px;
     background-image: url(images/highwaysign.png);
     background-size: 100%;
-    padding-top: 2px;
+    padding-top: 25px;
     background-repeat: no-repeat;
 }
 
@@ -115,7 +122,7 @@ a:hover, a:focus {
 
 .design-archives {
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 50px;
     right: 50px;
     width: 400px;
@@ -132,7 +139,7 @@ a:hover, a:focus {
 
 .zen-resources {
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 350px;
     right: 50px;
     width: 400px;

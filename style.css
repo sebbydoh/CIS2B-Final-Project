@@ -21,6 +21,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding-top: 160px;
+    overflow: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,19 +81,25 @@ a:hover, a:focus {
 
 
 .design-selection {
-    position: fixed;
+    position: absolute;
     top: 55px;
     left: 170px;
     font-size: 1.3em !important;
-    transform: rotate(-5deg);
+    transform: rotate(-10deg);
+    background-image: url(images/stickynotebackground.png);
+    background-size: cover;
+    padding: 30px;
 }
 
 .zen-resources {
-    position: fixed;
+    position: absolute;
     top: 400px;
     right: 150px;
     font-size: 1.5em !important;
     transform: rotate(8deg);
+    background-image: url(images/stickynotebackground.png);
+    background-size: cover;
+    padding: 30px;
 }
 
 .sidebar li {

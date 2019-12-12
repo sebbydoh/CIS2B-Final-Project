@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Raleway:400,400i,700,700i|Sulphur+Point&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Google Fonts
 font-family: 'Just Me Again Down Here', cursive;   ---Sticky Notes
 font-family: 'Sulphur Point', sans-serif;   ---Headings
@@ -76,15 +81,15 @@ a:hover, a:focus {
 
 .design-selection {
     position: fixed;
-    top: 25px;
-    left: 140px;
+    top: 55px;
+    left: 170px;
     font-size: 1.3em !important;
     transform: rotate(-5deg);
 }
 
 .zen-resources {
     position: fixed;
-    top: 350px;
+    top: 400px;
     right: 150px;
     font-size: 1.5em !important;
     transform: rotate(8deg);

@@ -31,13 +31,16 @@ p {
     font-family: 'Lato', sans-serif;
     color: white;
     text-align: left;
-    line-height: 1.5em;
+    line-height: 1.45em;
 }
 
 abbr {
     text-decoration: none;
 }
 
+footer {
+    padding-bottom: 60px;
+}
 
 footer a {
     margin: 0 20px;
@@ -54,7 +57,7 @@ margin: 6px;
 
 /* Links */
 
-a {
+a:link {
     text-decoration: none;
     font-weight: bold;
     color: #FF6161;
@@ -63,6 +66,7 @@ a {
 
 a:hover, a:focus {
     color: orange !important;
+    text-decoration: underline;
 }
 
 /* Classes */
